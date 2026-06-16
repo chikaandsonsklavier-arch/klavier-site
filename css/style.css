@@ -287,7 +287,7 @@ a {
   font-family: var(--font-display);
   font-size: 1.1rem;
   font-style: italic;
-  color: var(--color-text-muted);
+  color: rgba(255,255,255,0.85);
   margin: 16px 0 40px;
   letter-spacing: 0.05em;
   animation: fadeUp 0.9s 0.3s ease both;
@@ -337,12 +337,12 @@ a {
 /* セカンダリボタン（アウトライン） */
 .btn-secondary {
   background: transparent;
-  color: var(--color-text);
+  color: #ffffff;
   padding: 15px 40px;
   font-size: 0.8rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  border: 1px solid var(--color-border);
+  border: 1px solid rgba(255,255,255,0.6);
   border-radius: 2px;
   cursor: pointer;
   transition: border-color var(--transition), transform var(--transition);
