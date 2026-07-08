@@ -278,6 +278,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 8,
+    date: "８月２８日",
+    title: "近藤和彦(as)市川秀男(p)",
+    artist: "近藤和彦(as)市川秀男(p)",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
