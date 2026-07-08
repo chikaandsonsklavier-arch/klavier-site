@@ -249,3 +249,27 @@ const KLAVIER_EVENTS = [
     image: "",
   },
 ];
+
+// ============================================================
+// 【関数】指定した月のイベントだけを返す
+// ============================================================
+function getEventsByMonth(month) {
+  return KLAVIER_EVENTS.filter(event => event.month === month);
+}
+
+// ============================================================
+// 【関数】日本時間で「今月」のイベントを返す
+// ============================================================
+function getCurrentMonthEvents() {
+  const nowJST = new Date(Date.now() + 9 * 60 * 60 * 1000);
+  const currentMonth = nowJST.getUTCMonth() + 1;
+  return getEventsByMonth(currentMonth);
+}
+
+// ============================================================
+// 【関数】日本時間の「今月」の月番号を返す（1〜12）
+// ============================================================
+function getCurrentMonthNumber() {
+  const nowJST = new Date(Date.now() + 9 * 60 * 60 * 1000);
+  return nowJST.getUTCMonth() + 1;
+}
