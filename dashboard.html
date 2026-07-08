@@ -420,9 +420,25 @@ function parseEvents(jsText) {
 
 function esc(s) { return String(s == null ? '' : s).replace(/\\/g, '\\\\').replace(/"/g, '\\"'); }
 
+// 全角数字を半角に変換（"８月１４日" → "8月14日"）
+function toHalfWidthDigits(s) {
+  return String(s == null ? '' : s).replace(/[０-９]/g, c => String.fromCharCode(c.charCodeAt(0) - 0xFEE0));
+}
+// 日付文字列から「日」の数値を取り出す（並べ替え用）。"月"の後ろの数字を優先。
+function dayNumber(dateStr) {
+  const s = toHalfWidthDigits(dateStr);
+  const m = s.match(/月\s*(\d+)/) || s.match(/(\d+)\s*日/) || s.match(/(\d+)/);
+  return m ? parseInt(m[1], 10) : 999;
+}
+// イベント配列を「月 → 日」の数値順に並べ替える（文字列比較しない）
+function sortEvents(events) {
+  return [...events].sort((a, b) =>
+    (Number(a.month) || 0) - (Number(b.month) || 0) || dayNumber(a.date) - dayNumber(b.date));
+}
+
 // 配列 → events.js の完全なテキストを生成
 function serializeEvents(events) {
-  const sorted = [...events].sort((a, b) => (a.month||0) - (b.month||0) || String(a.date||'').localeCompare(String(b.date||'')));
+  const sorted = sortEvents(events);
   const items = sorted.map(e =>
 `  {
     month: ${Number(e.month) || 0},
@@ -511,7 +527,7 @@ function renderList() {
   }
   const sorted = EVENTS
     .map((e, i) => ({ e, i }))
-    .sort((a, b) => (a.e.month||0) - (b.e.month||0) || String(a.e.date||'').localeCompare(String(b.e.date||'')));
+    .sort((a, b) => (Number(a.e.month)||0) - (Number(b.e.month)||0) || dayNumber(a.e.date) - dayNumber(b.e.date));
 
   const { user, repo, branch } = getConfig();
   container.innerHTML = sorted.map(({ e, i }) => {
@@ -700,23 +716,23 @@ async function saveEvent() {
 // ============================================================
 async function deleteEvent(index) {
   const target = EVENTS[index];
+  if (!target) return;
   if (!confirm(`「${target.month}月 ${target.date} ${target.artist}」を削除します。よろしいですか？`)) return;
   try {
-    // 最新化
-    const fresh = await getTextFile(EVENTS_PATH);
-    EVENTS = parseEvents(fresh.content);
-    EVENTS_SHA = fresh.sha;
-    // 同じ内容のものを探して除去（indexは再取得でずれる可能性があるため内容一致で特定）
-    const idx = EVENTS.findIndex(e =>
-      e.month == target.month && e.date === target.date && e.artist === target.artist && e.title === target.title);
-    if (idx === -1) throw new Error('対象が見つかりませんでした（既に変更済みの可能性）');
-    EVENTS.splice(idx, 1);
+    // クリックした行そのもの（正確な位置）を1件だけ除去。
+    // 内容一致で探す方式だと、同一データの重複があったとき別の行を消してしまうため、
+    // 一覧を読み込んだ時点の配列インデックスをそのまま使う。
+    const removed = EVENTS.splice(index, 1);
+    if (removed.length === 0) throw new Error('対象が見つかりませんでした');
     const newText = serializeEvents(EVENTS);
+    // 一覧読み込み時に保持している sha で保存（競合時は 409 → 再読み込みを促す）
     await putTextFile(EVENTS_PATH, newText, `イベント削除: ${target.date} ${target.artist}`, EVENTS_SHA);
     showToast('イベントを削除しました');
-    await loadEvents();
+    await loadEvents(); // 一覧と sha を最新化
   } catch (e) {
-    showToast(`削除に失敗: ${e.message}`, 'error');
+    const hint = /409/.test(e.message) ? '（一覧が古い可能性。再読み込みしてやり直してください）' : '';
+    showToast(`削除に失敗: ${e.message}${hint}`, 'error');
+    await loadEvents(); // 失敗時はローカル配列を破棄して再同期
   }
 }
 
