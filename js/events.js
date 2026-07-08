@@ -288,6 +288,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 8,
+    date: "８月２９日",
+    title: "三木俊雄(ts)石田衛(p)",
+    artist: "三木俊雄(ts)石田衛(p)",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
