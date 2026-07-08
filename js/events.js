@@ -238,6 +238,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 8,
+    date: "８月１５日",
+    title: "板垣光弘(p)大月裕信(b)関根豊明(ds)",
+    artist: "板垣光弘(p)大月裕信(b)関根豊明(ds)",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
