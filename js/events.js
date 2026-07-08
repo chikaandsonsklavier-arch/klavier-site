@@ -230,7 +230,7 @@ const KLAVIER_EVENTS = [
   },
   {
     month: 8,
-    date: "8月7日",
+    date: "8月8日",
     title: "休み",
     artist: "休み",
     time: "OPEN 19:00 / START 19:30",
@@ -240,7 +240,7 @@ const KLAVIER_EVENTS = [
   },
   {
     month: 8,
-    date: "8月8日",
+    date: "８月８日",
     title: "休み",
     artist: "休み",
     time: "OPEN 19:00 / START 19:30",
@@ -251,24 +251,24 @@ const KLAVIER_EVENTS = [
 ];
 
 // ============================================================
-// 【関数】指定した月のイベントだけを返す
+// 【重要】以下のヘルパー関数は main.js から呼び出されます。
+//         これが無いとイベントページとスライドショーが表示されません。
+//         ダッシュボードが保存のたびに自動で書き出します（削除しないでください）。
 // ============================================================
+
+// 指定した月のイベントだけを返す
 function getEventsByMonth(month) {
   return KLAVIER_EVENTS.filter(event => event.month === month);
 }
 
-// ============================================================
-// 【関数】日本時間で「今月」のイベントを返す
-// ============================================================
+// 日本時間（UTC+9）で「今月」のイベントを返す
 function getCurrentMonthEvents() {
   const nowJST = new Date(Date.now() + 9 * 60 * 60 * 1000);
   const currentMonth = nowJST.getUTCMonth() + 1;
   return getEventsByMonth(currentMonth);
 }
 
-// ============================================================
-// 【関数】日本時間の「今月」の月番号を返す（1〜12）
-// ============================================================
+// 日本時間の「今月」の月番号を返す（1〜12）
 function getCurrentMonthNumber() {
   const nowJST = new Date(Date.now() + 9 * 60 * 60 * 1000);
   return nowJST.getUTCMonth() + 1;
