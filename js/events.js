@@ -230,7 +230,7 @@ const KLAVIER_EVENTS = [
   },
   {
     month: 8,
-    date: "8月8日",
+    date: "８月７日",
     title: "休み",
     artist: "休み",
     time: "OPEN 19:00 / START 19:30",
