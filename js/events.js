@@ -258,6 +258,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 8,
+    date: "８月２１日",
+    title: "豊田チカ(vo)川嶋哲郎(ts)",
+    artist: "豊田チカ(vo)川嶋哲郎(ts) ありがとうございます満員御礼となりました 。",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
