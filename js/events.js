@@ -268,6 +268,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 8,
+    date: "８月２２日",
+    title: "河上修(b)吉永絢香(sax)",
+    artist: "河上修(b)吉永絢香(sax)",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
