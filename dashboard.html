@@ -1083,7 +1083,7 @@ async function addEvent() {
 
   try {
     // events.js のパス（リポジトリ内のパス）
-    const filePath = 'js/events.js';
+    const filePath = 'files/klavier/js/events.js';
     const { content, sha } = await getFile(filePath);
 
     // 新しいイベントオブジェクトを文字列として作成
@@ -1127,7 +1127,7 @@ async function loadEventList() {
   container.innerHTML = '<p style="color:var(--text-muted);font-size:0.82rem;">読み込み中...</p>';
 
   try {
-    const { content } = await getFile('js/events.js');
+    const { content } = await getFile('files/klavier/js/events.js');
 
     // events.jsからイベントデータを正規表現で抽出
     const matches = [...content.matchAll(/month:\s*(\d+)[^}]*date:\s*"([^"]+)"[^}]*title:\s*"([^"]+)"[^}]*artist:\s*"([^"]+)"/gs)];
