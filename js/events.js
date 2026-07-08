@@ -211,16 +211,6 @@ const KLAVIER_EVENTS = [
   {
     month: 8,
     date: "８月１４日",
-    title: "口英治(p)鈴木洋一(g)土田晴信(org)",
-    artist: "口英治(p)鈴木洋一(g)土田晴信(org)",
-    time: "OPEN 19:00 / START 19:30",
-    charge: "¥3,000",
-    description: "",
-    image: "",
-  },
-  {
-    month: 8,
-    date: "８月１４日",
     title: "谷口英治(p)鈴木洋一(g)土田晴信(org)",
     artist: "谷口英治(p)鈴木洋一(g)土田晴信(org)",
     time: "OPEN 19:00 / START 19:30",
