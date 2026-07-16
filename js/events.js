@@ -308,6 +308,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 9,
+    date: "９月５日",
+    title: "井上ターくん尚彦(drums)Me know trio,野口久和pf &高梨道生(bs)",
+    artist: "井上ターくん尚彦(drums)Me know trio,野口久和pf &高梨道生(bs)",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
