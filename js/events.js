@@ -338,6 +338,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 9,
+    date: "９月２６日",
+    title: "未田敦子(vo&pf)高尾幸宏(b)&宮野裕司(sax)",
+    artist: "未田敦子(vo&pf)高尾幸宏(b)&宮野裕司(sax)",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
