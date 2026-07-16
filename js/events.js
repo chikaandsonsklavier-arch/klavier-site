@@ -318,6 +318,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 9,
+    date: "９月１１日",
+    title: "向井滋春(tb),河上修(bs)&中嶋錠ニ(pf)",
+    artist: "向井滋春(tb),河上修(bs)&中嶋錠ニ(pf)",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
