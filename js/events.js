@@ -199,6 +199,16 @@ const KLAVIER_EVENTS = [
     image: "",
   },
   {
+    month: 7,
+    date: "７月３１日",
+    title: "岡安芳明gt &安保徹sax",
+    artist: "岡安芳明gt &安保徹sax",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3000",
+    description: "",
+    image: "",
+  },
+  {
     month: 8,
     date: "8 月１日",
     title: "井上智(g)石田衛(p)増原巌(b)",
