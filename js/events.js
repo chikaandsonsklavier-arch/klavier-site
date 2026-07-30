@@ -200,7 +200,7 @@ const KLAVIER_EVENTS = [
   },
   {
     month: 7,
-    date: "７月３１日",
+    date: "７月３１日(金)",
     title: "岡安芳明gt &安保徹sax",
     artist: "岡安芳明gt &安保徹sax",
     time: "OPEN 19:00 / START 19:30",
