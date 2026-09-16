@@ -361,7 +361,7 @@ const KLAVIER_EVENTS = [
   {
     month: 10,
     date: "10月3日（土）",
-    title: "",
+    title: "川嶋哲郎sax,佐津間純g &若井俊也b",
     artist: "川嶋哲郎sax,佐津間純g &若井俊也b",
     time: "OPEN 19:00 / START 19:30",
     charge: "¥3,000",
