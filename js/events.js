@@ -378,6 +378,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 10,
+    date: "10月10日（土）",
+    title: "井上陽介CD\"Who's who\"発売記念ライブ",
+    artist: "井上陽介b,平倉初音p &後藤龍太郎d",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,500",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
