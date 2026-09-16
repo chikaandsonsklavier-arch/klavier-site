@@ -368,6 +368,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 10,
+    date: "10月9日(金)",
+    title: "三四朗sax,神村晃司p &石井康二b.",
+    artist: "三四朗sax,神村晃司p &石井康二b.",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥4,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
