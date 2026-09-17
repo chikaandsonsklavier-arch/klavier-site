@@ -418,6 +418,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 10,
+    date: "10月24日（土）",
+    title: "佐藤節雄d,吉岡秀晃p &金森もといb",
+    artist: "佐藤節雄d,吉岡秀晃p &金森もといb",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
