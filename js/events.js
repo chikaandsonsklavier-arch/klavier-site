@@ -408,6 +408,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 10,
+    date: "10月23日（金）",
+    title: "井上智g,Pat Glynn(b)&David Bryant(p)",
+    artist: "井上智g,Pat Glynn(b)&David Bryant(p)",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
