@@ -458,6 +458,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 11,
+    date: "11月6日（金）",
+    title: "川嶋哲郎sax &本川悠平b.  guest豊田チカ",
+    artist: "川嶋哲郎sax &本川悠平b.  guest豊田チカ",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
