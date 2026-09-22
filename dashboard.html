@@ -418,7 +418,7 @@ function parseEvents(jsText) {
   return arr;
 }
 
-function esc(s) { return String(s == null ? '' : s).replace(/\\/g, '\\\\').replace(/"/g, '\\"'); }
+function esc(s) { return String(s == null ? '' : s).replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\r\n|\r|\n/g, '\\n'); }
 
 // 全角数字を半角に変換（"８月１４日" → "8月14日"）
 function toHalfWidthDigits(s) {
