@@ -351,11 +351,12 @@ const KLAVIER_EVENTS = [
   {
     month: 10,
     date: "10月2日(金)",
-    title: "New Standards Quartett",
-    artist: "木村由紀夫D 須藤俊也P  山田晃道B 駒野逸美Tb",
+    title: "Special 2 bands night！¥3900",
+    artist: "①久米雅之グループ ②木村由紀夫New Standards Quartetto",
     time: "OPEN 19:00 / START 19:30",
     charge: "¥3,900",
-    description: "",
+    description: "久米雅之グループ : 久米雅之d 加藤友彦p 石川隆一b  江澤茜sax.
+New Standard Quartet : 木村由紀夫D 須藤俊也P  山田晃道B 駒野逸美Tb",
     image: "",
   },
   {
