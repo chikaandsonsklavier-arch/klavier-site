@@ -96,7 +96,7 @@ function initSlideshow() {
             <strong>時間</strong>${event.time}<br>
             <strong>料金</strong>${event.charge}
           </div>
-          <p style="font-size:0.82rem; color: var(--color-text-muted);">${event.description}</p>
+          <p style="font-size:0.82rem; color: var(--color-text-muted); white-space: pre-line;">${event.description}</p>
         </div>
       </div>
     `;
@@ -211,8 +211,9 @@ function initEventTabs() {
           <div class="event-list-meta">
             <strong>時間</strong>${event.time}<br>
             <strong>料金</strong>${event.charge}<br>
-            ${event.description ? '<span style="color:var(--color-text-muted)">' + event.description + '</span>' : ''}
+            ${event.description ? '<span style="color:var(--color-text-muted); white-space:pre-line;">' + event.description + '</span>' : ''}
           </div>
+          ${event.image ? `<a href="${event.image}" target="_blank" rel="noopener" class="event-list-flyer"><img src="${event.image}" alt="${event.title} チラシ" loading="lazy"></a>` : ''}
         </div>
         <div class="event-list-cta">
           <a href="tel:0333930418" class="btn-primary" style="white-space:nowrap;">予約する</a>
@@ -277,7 +278,19 @@ function initReservationForm() {
 // ページが読み込まれたら各初期化関数を実行する
 // DOMContentLoaded: HTMLの読み込みが完了したタイミングで発火するイベント
 // ============================================================
+// ============================================================
+// ⑥ 特別公演のお知らせ：公演日を過ぎたら自動で非表示
+// 【仕組み】data-until="YYYY-MM-DD" の翌日（日本時間）以降は隠す
+// ============================================================
+function hideExpiredSpecialEvents() {
+  const todayJST = new Date(Date.now() + 9 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  document.querySelectorAll('[data-until]').forEach(el => {
+    if (todayJST > el.dataset.until) el.hidden = true;
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+  hideExpiredSpecialEvents(); // 期限切れの特別公演を非表示
   initSlideshow();        // スライドショーの初期化
   initEventTabs();        // 月別タブの初期化
   initReservationForm();  // 予約フォームの初期化
