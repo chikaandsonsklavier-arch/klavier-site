@@ -538,6 +538,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 11,
+    date: "11月28日(土)",
+    title: "里見紀子vln &森下滋p",
+    artist: "里見紀子vln &森下滋p",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
