@@ -551,11 +551,11 @@ const KLAVIER_EVENTS = [
   {
     month: 12,
     date: "12月22日（火）",
-    title: "豊田チカ「My favorite things」＠座・高円寺2",
+    title: "豊田チカ「My favorite things」＠座・高円寺",
     artist: "豊田チカ(vo), Franklin Singer(vo), 川嶋哲郎(sax), 高瀬龍一(tp), 田中裕士(pf), 加藤真一(b) & 小山太郎(ds)",
     time: "OPEN 17:45 / START 18:30",
     charge: "¥5,000（自由席）",
-    description: "会場：座・高円寺2（杉並区高円寺北2-1-2／JR高円寺駅北口より徒歩5分）\nチケットお申し込み・お問い合わせ：080-6868-0702 / chikaandsonsklavier@gmail.com",
+    description: "会場：座・高円寺（杉並区高円寺北2-1-2／JR高円寺駅北口より徒歩5分）\nチケットお申し込み・お問い合わせ：080-6868-0702 / chikaandsonsklavier@gmail.com",
     image: "images/flyer-20261222.webp",
   },
 ];
