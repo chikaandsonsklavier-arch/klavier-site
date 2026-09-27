@@ -518,6 +518,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 11,
+    date: "11月21日(土)",
+    title: "塚山エリコp,齋藤クジラ誠b &市原康d,",
+    artist: "塚山エリコp,齋藤クジラ誠b &市原康d,",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥4,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
