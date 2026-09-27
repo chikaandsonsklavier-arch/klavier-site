@@ -488,6 +488,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 11,
+    date: "11月14日",
+    title: "小林陽一(d)JJM リンヘイテツp,安田幸司b,國府方章弘tp &櫻井智則sax",
+    artist: "小林陽一(d)JJM リンヘイテツp,安田幸司b,國府方章弘tp &櫻井智則sax",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥4000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
