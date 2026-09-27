@@ -470,6 +470,16 @@ const KLAVIER_EVENTS = [
   },
   {
     month: 11,
+    date: "11月7日（土）",
+    title: "岡崎好朗tp,田中奈緒子p & 姫岡ゆうたb",
+    artist: "岡崎好朗tp,田中奈緒子p & 姫岡ゆうたb",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3000",
+    description: "",
+    image: "",
+  },
+  {
+    month: 11,
     date: "11月13日（金）",
     title: "井上祐一p,本川悠平b &田村陽介d",
     artist: "井上祐一p,本川悠平b &田村陽介d",
