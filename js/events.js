@@ -508,6 +508,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 11,
+    date: "11月20日(金)",
+    title: "河上修b,松下聖哉p &吉永絢香sax,",
+    artist: "河上修b,松下聖哉p &吉永絢香sax,",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
