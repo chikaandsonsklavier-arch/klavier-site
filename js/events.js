@@ -498,6 +498,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 11,
+    date: "11月17日(火)",
+    title: "Red Pellin(sax),小田智昭d,三原彩子p &渡辺拓実b.",
+    artist: "Red Pellin(sax),小田智昭d,三原彩子p &渡辺拓実b.",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
