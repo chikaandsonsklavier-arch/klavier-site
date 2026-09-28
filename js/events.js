@@ -390,6 +390,16 @@ const KLAVIER_EVENTS = [
   },
   {
     month: 10,
+    date: "10月15日",
+    title: "Klavier（阿佐ヶ谷）ジョシュアブレイクストーンスペシャル",
+    artist: "ジョシュアブレイクストーン(g),フィリップ・ストレンジ(pf)",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,500",
+    description: "「Jazz and the Spoken Word』-5人の作家がライブジャズの伴奏とともに自作を読・ピアニストのフィリップ・ストレンジ（Phillip Strange）とのデュオー開始：19:30",
+    image: "",
+  },
+  {
+    month: 10,
     date: "10月16日（金）",
     title: "鈴木良雄p &榊原太郎b",
     artist: "鈴木良雄p &榊原太郎b",
