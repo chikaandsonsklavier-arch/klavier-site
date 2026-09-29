@@ -400,6 +400,16 @@ const KLAVIER_EVENTS = [
   },
   {
     month: 10,
+    date: "10月16日（金）",
+    title: "榊原太郎b &園田智子p,",
+    artist: "榊原太郎b &園田智子p,",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
+  {
+    month: 10,
     date: "10月17日（土）",
     title: "嶋津健一p &加藤真一b",
     artist: "嶋津健一p &加藤真一b",
