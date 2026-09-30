@@ -390,8 +390,8 @@ const KLAVIER_EVENTS = [
   },
   {
     month: 10,
-    date: "10月15日",
-    title: "Klavier（阿佐ヶ谷）Joshua Breakstone special",
+    date: "10月15日 (木)",
+    title: "Klavier（阿佐ヶ谷）ジョシュアブレイクストーンスペシャル",
     artist: "ジョシュアブレイクストーン(g),フィリップ・ストレンジ(pf)",
     time: "OPEN 19:00 / START 19:30",
     charge: "¥3,500",
