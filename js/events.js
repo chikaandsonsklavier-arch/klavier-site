@@ -506,7 +506,7 @@ const KLAVIER_EVENTS = [
     time: "OPEN 19:00 / START 19:30",
     charge: "¥4000",
     description: "",
-    image: "",
+    image: "images/mvg56ptp-image.jpg",
   },
   {
     month: 11,
