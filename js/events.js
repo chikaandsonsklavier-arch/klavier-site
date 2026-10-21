@@ -450,6 +450,16 @@ const KLAVIER_EVENTS = [
   },
   {
     month: 10,
+    date: "10月30日（金）",
+    title: "阿佐谷ジャズストリート2026 豊田チカ＠久遠キリスト教会",
+    artist: "豊田チカ(vo) & Frankie Singer(vo) with 田中裕士トリオ：田中裕士(p), 井上陽介(b), 小山太郎(ds)",
+    time: "①14:00〜14:45 ②15:15〜16:00",
+    charge: "前売券 ¥2,000（入れ替え制）",
+    description: "会場：久遠キリスト教会\nクラヴィエール店主・豊田チカが今年も出演します。\n前売券は八重洲ブックセンターで発売中。",
+    image: "images/mvihvxgp-fullsizerender.jpeg",
+  },
+  {
+    month: 10,
     date: "10月31日（土）",
     title: "★阿佐ヶ谷ジャズストリート31(土)午後の部",
     artist: "Trio JOG(金森もといb,市原ひかりtp,vo &平田晃一g)",
