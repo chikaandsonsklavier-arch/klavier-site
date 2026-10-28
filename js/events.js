@@ -560,6 +560,16 @@ const KLAVIER_EVENTS = [
   },
   {
     month: 12,
+    date: "12月4日(金)",
+    title: "山川秀明p,vo.白石幸司cl &小林真人b.",
+    artist: "山川秀明p,vo.白石幸司cl &小林真人b.",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
+  {
+    month: 12,
     date: "12月22日（火）",
     title: "豊田チカ「My favorite things」＠座・高円寺",
     artist: "豊田チカ(vo), Franklin Singer(vo), 川嶋哲郎(sax), 高瀬龍一(tp), 田中裕士(pf), 加藤真一(b) & 小山太郎(ds)",
