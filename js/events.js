@@ -59,6 +59,16 @@ const KLAVIER_EVENTS = [
     image: "",
   },
   {
+    month: 1,
+    date: "1月30日(土)",
+    title: "小林陽一(ds)JJM.石渡雅裕p,渡辺しゅうじb,栗山ゆうきtp &桜井智則ts.",
+    artist: "小林陽一(ds)JJM.石渡雅裕p,渡辺しゅうじb,栗山ゆうきtp &桜井智則ts.",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥4,500",
+    description: "",
+    image: "",
+  },
+  {
     month: 5,
     date: "5月22日（金）",
     title: "Me-Know trio.",
