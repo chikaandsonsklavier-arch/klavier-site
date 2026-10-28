@@ -638,6 +638,16 @@ const KLAVIER_EVENTS = [
     description: "",
     image: "",
   },
+  {
+    month: 12,
+    date: "12月26日(土)",
+    title: "クラヴィエールSuper Jam Session vol,5",
+    artist: "佐藤節雄トリオ",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
