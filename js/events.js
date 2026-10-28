@@ -39,6 +39,16 @@ const KLAVIER_EVENTS = [
     image: "",
   },
   {
+    month: 1,
+    date: "1月23日(土)",
+    title: "未田敦子p,vo. 高尾幸宏b &宮野裕司sax.",
+    artist: "未田敦子p,vo. 高尾幸宏b &宮野裕司sax.",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
+  {
     month: 5,
     date: "5月22日（金）",
     title: "Me-Know trio.",
