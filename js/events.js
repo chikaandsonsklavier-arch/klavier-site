@@ -29,6 +29,16 @@ const KLAVIER_EVENTS = [
     image: "",
   },
   {
+    month: 1,
+    date: "1月22日(金)",
+    title: "大野智子p,高尾幸宏b &吉岡大輔d.",
+    artist: "大野智子p,高尾幸宏b &吉岡大輔d.",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,000",
+    description: "",
+    image: "",
+  },
+  {
     month: 5,
     date: "5月22日（金）",
     title: "Me-Know trio.",
