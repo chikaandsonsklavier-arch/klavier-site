@@ -19,6 +19,16 @@ const KLAVIER_EVENTS = [
     image: "",
   },
   {
+    month: 1,
+    date: "1月16日(土)",
+    title: "木村由紀夫(ds) New Standard quintetto",
+    artist: "木村由紀夫(ds) New Standard quintetto,(須藤俊也p,山田晃美道b,右近茂sax &駒野逸美tb)",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "¥3,900",
+    description: "",
+    image: "",
+  },
+  {
     month: 5,
     date: "5月22日（金）",
     title: "Me-Know trio.",
