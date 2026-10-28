@@ -610,6 +610,16 @@ const KLAVIER_EVENTS = [
   },
   {
     month: 12,
+    date: "12月19日(土)",
+    title: "Bar営業",
+    artist: "Bar営業",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "—",
+    description: "",
+    image: "",
+  },
+  {
+    month: 12,
     date: "12月22日（火）",
     title: "豊田チカ「My favorite things」＠座・高円寺",
     artist: "豊田チカ(vo), Franklin Singer(vo), 川嶋哲郎(sax), 高瀬龍一(tp), 田中裕士(pf), 加藤真一(b) & 小山太郎(ds)",
