@@ -628,6 +628,16 @@ const KLAVIER_EVENTS = [
     description: "会場：座・高円寺（杉並区高円寺北2-1-2／JR高円寺駅北口より徒歩5分）\nチケットお申し込み・お問い合わせ：080-6868-0702 / chikaandsonsklavier@gmail.com",
     image: "images/flyer-20261222.webp",
   },
+  {
+    month: 12,
+    date: "12月25日(金)",
+    title: "Bar営業",
+    artist: "Bar営業",
+    time: "OPEN 19:00 / START 19:30",
+    charge: "—",
+    description: "",
+    image: "",
+  },
 ];
 
 // ============================================================
