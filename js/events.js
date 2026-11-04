@@ -651,10 +651,10 @@ const KLAVIER_EVENTS = [
   {
     month: 12,
     date: "12月12日(土)",
-    title: "Me know trio.井上ターくん尚彦d,野口ジャバ久和p &山村ルータン隆一b.",
-    artist: "Me know trio.井上ターくん尚彦d,野口ジャバ久和p &山村ルータン隆一b.",
+    title: "Me know trio.井上ターくん尚彦d,野口ジャバ久和p &山村ルータン隆一b　with Guest Andy Bevan(sax)",
+    artist: "Me know trio.井上ターくん尚彦d,野口ジャバ久和p &山村ルータン隆一b with Guest Andy Bevan(sax)",
     time: "OPEN 19:00 / START 19:30",
-    charge: "¥3,000",
+    charge: "¥3,500",
     description: "",
     image: "",
   },
